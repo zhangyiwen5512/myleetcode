@@ -11,48 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d710d958-fcf6-47a2-ab55-d45707deec6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/headers/convert.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/fourSum.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/generateParenthesis.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/intToRoman.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/isMatch.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/isPalindrome.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/isValid.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/letterCombinations.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/longestCommonPrefix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/longestPalindrome.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/maxArea.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/mergeTwoLists.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/myAtoi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/removeNthFromEnd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/reverse.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/romanToInt.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/threeSum.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/threeSumClosest.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cleetcode" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cleetcode" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cleetcode.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cleetcode.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/addTwoNumbers.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/addTwoNumbers.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/findMedianSortedArrays.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/findMedianSortedArrays.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/lengthOfLongestSubstring.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/lengthOfLongestSubstring.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/addTwoNumbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/addTwoNumbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/twoSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/twoSum.py" afterDir="false" />
-    </list>
+    <list default="true" id="d710d958-fcf6-47a2-ab55-d45707deec6d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605532251531</updated>
       <workItem from="1605532252628" duration="6219000" />
-      <workItem from="1605613578659" duration="79160000" />
+      <workItem from="1605613578659" duration="79532000" />
     </task>
     <servers />
   </component>
