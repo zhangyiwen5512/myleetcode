@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/cleetcode.dir/main.cpp.o CMakeFiles/cleetcode.dir/headers/twoSum.cpp.o CMakeFiles/cleetcode.dir/headers/addTwoNumbers.cpp.o  -o cleetcode 
+/usr/bin/c++  -g   CMakeFiles/cleetcode.dir/main.cpp.o  -o cleetcode 

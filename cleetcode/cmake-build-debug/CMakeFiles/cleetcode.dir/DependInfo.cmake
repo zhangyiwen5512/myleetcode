@@ -4,8 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/addTwoNumbers.cpp" "/home/zhangyiwen/Desktop/myleetcode/cleetcode/cmake-build-debug/CMakeFiles/cleetcode.dir/headers/addTwoNumbers.cpp.o"
-  "/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/twoSum.cpp" "/home/zhangyiwen/Desktop/myleetcode/cleetcode/cmake-build-debug/CMakeFiles/cleetcode.dir/headers/twoSum.cpp.o"
   "/home/zhangyiwen/Desktop/myleetcode/cleetcode/main.cpp" "/home/zhangyiwen/Desktop/myleetcode/cleetcode/cmake-build-debug/CMakeFiles/cleetcode.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

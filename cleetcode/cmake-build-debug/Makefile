@@ -123,60 +123,6 @@ cleetcode/fast:
 	$(MAKE) -f CMakeFiles/cleetcode.dir/build.make CMakeFiles/cleetcode.dir/build
 .PHONY : cleetcode/fast
 
-headers/addTwoNumbers.o: headers/addTwoNumbers.cpp.o
-
-.PHONY : headers/addTwoNumbers.o
-
-# target to build an object file
-headers/addTwoNumbers.cpp.o:
-	$(MAKE) -f CMakeFiles/cleetcode.dir/build.make CMakeFiles/cleetcode.dir/headers/addTwoNumbers.cpp.o
-.PHONY : headers/addTwoNumbers.cpp.o
-
-headers/addTwoNumbers.i: headers/addTwoNumbers.cpp.i
-
-.PHONY : headers/addTwoNumbers.i
-
-# target to preprocess a source file
-headers/addTwoNumbers.cpp.i:
-	$(MAKE) -f CMakeFiles/cleetcode.dir/build.make CMakeFiles/cleetcode.dir/headers/addTwoNumbers.cpp.i
-.PHONY : headers/addTwoNumbers.cpp.i
-
-headers/addTwoNumbers.s: headers/addTwoNumbers.cpp.s
-
-.PHONY : headers/addTwoNumbers.s
-
-# target to generate assembly for a file
-headers/addTwoNumbers.cpp.s:
-	$(MAKE) -f CMakeFiles/cleetcode.dir/build.make CMakeFiles/cleetcode.dir/headers/addTwoNumbers.cpp.s
-.PHONY : headers/addTwoNumbers.cpp.s
-
-headers/twoSum.o: headers/twoSum.cpp.o
-
-.PHONY : headers/twoSum.o
-
-# target to build an object file
-headers/twoSum.cpp.o:
-	$(MAKE) -f CMakeFiles/cleetcode.dir/build.make CMakeFiles/cleetcode.dir/headers/twoSum.cpp.o
-.PHONY : headers/twoSum.cpp.o
-
-headers/twoSum.i: headers/twoSum.cpp.i
-
-.PHONY : headers/twoSum.i
-
-# target to preprocess a source file
-headers/twoSum.cpp.i:
-	$(MAKE) -f CMakeFiles/cleetcode.dir/build.make CMakeFiles/cleetcode.dir/headers/twoSum.cpp.i
-.PHONY : headers/twoSum.cpp.i
-
-headers/twoSum.s: headers/twoSum.cpp.s
-
-.PHONY : headers/twoSum.s
-
-# target to generate assembly for a file
-headers/twoSum.cpp.s:
-	$(MAKE) -f CMakeFiles/cleetcode.dir/build.make CMakeFiles/cleetcode.dir/headers/twoSum.cpp.s
-.PHONY : headers/twoSum.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -213,12 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cleetcode"
 	@echo "... edit_cache"
-	@echo "... headers/addTwoNumbers.o"
-	@echo "... headers/addTwoNumbers.i"
-	@echo "... headers/addTwoNumbers.s"
-	@echo "... headers/twoSum.o"
-	@echo "... headers/twoSum.i"
-	@echo "... headers/twoSum.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

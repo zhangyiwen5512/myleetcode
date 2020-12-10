@@ -11,7 +11,48 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d710d958-fcf6-47a2-ab55-d45707deec6d" name="Default Changelist" comment="" />
+    <list default="true" id="d710d958-fcf6-47a2-ab55-d45707deec6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/headers/convert.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/fourSum.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/generateParenthesis.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/intToRoman.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/isMatch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/isPalindrome.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/isValid.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/letterCombinations.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/longestCommonPrefix.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/longestPalindrome.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/maxArea.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/mergeTwoLists.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/myAtoi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/removeNthFromEnd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/reverse.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/romanToInt.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/threeSum.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/threeSumClosest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cleetcode" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cleetcode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cleetcode.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cleetcode.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/addTwoNumbers.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/addTwoNumbers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/findMedianSortedArrays.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/findMedianSortedArrays.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/lengthOfLongestSubstring.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/lengthOfLongestSubstring.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyleetcode/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/addTwoNumbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/addTwoNumbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/twoSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/twoSum.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +63,16 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1kNDebye0kF41QnlTIePXDkAYW4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Python-2.5.5" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,10 +104,39 @@
       <option name="presentableId" value="Default" />
       <updated>1605532251531</updated>
       <workItem from="1605532252628" duration="6219000" />
+      <workItem from="1605613578659" duration="79160000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/headers/threeSumClosest.h</url>
+          <line>7</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="values[i]" language="ObjectiveC" />
+        <watch expression="symbols[i]" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

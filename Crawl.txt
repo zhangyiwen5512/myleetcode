@@ -1,0 +1,455 @@
+常见请求头
+Content-Type: 							请求内容类型	
+Host: 								主机域名和端口号
+Connection: 							链接类型
+Upgrade-Insecure-Requests: 					升级为Https
+User-Agent: 							用户代理
+Referer:							页面跳转
+Cookie:
+Authorization:							授权信息
+
+
+
+常见响应头
+Set-Cookie:							设置cookie 'Set-Cookie': 'BDORZ=27315'
+
+
+抓关键包
+html静态文件
+js/ajax请求
+css/font/图片
+
+
+编码格式
+response.text							str类型
+response.content						byte类型，要decode('utf-8')
+response.encoding = 'utf-8' 'GBK'  				手动设定编码
+
+
+响应参数
+response.url							响应地址
+response.status_code						状态码
+response.headers						响应头
+response.request.headers					请求头
+response.cookies						响应cookies
+response.json()							转化json类型的响应
+
+
+发送请求头
+headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+	   Set-Cookie: BDSVRTM=415; path=/
+                    
+}
+
+response = requests.get(url, header=headers)
+
+
+发送请求参数，关键参数查找
+1 在url中携带参数
+url = "https://www.baidu.com/s?wd=python"
+response = requests.get(url, headers=header)
+2 params参数
+url = "https://www.baidu.com/s?wd=python"
+data = {"wd": "python"}
+response = requests.get(url, headers=header, params=data)
+
+
+携带cookies
+1 headers中
+ header = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+           'Cookie': '_octo=GH1.1.58961273.1563203114; _ga=GA1.2.934439658.1563203134; tz=Asia%2FShanghai; 			_device_id=6c66a20f2a3dc84b8815ac745d9ed651; tz=Asia%2FShanghai; user_session=9cEd78xD4FcFDmBOTF1Hyf6eaJhGFl2wa-w4CM324ZG61GtY; __Host-user_session_same_site=9cEd78xD4FcFDmBOTF1Hyf6eaJhGFl2wa-w4CM324ZG61GtY; logged_in=yes; dotcom_user=zhangyiwen5512; has_recent_activity=1; _gat=1; _gh_sess=Dp3bAPtvzh9hkwNr386Y6SHX9wFLQq5vlhaS8ffaxhoTPwMjJu5kNOMKrl%2BAovLuoyMimBVmAVGM0OeEiajNnp2CbyWO6GRe7FOjpo1cWvxQGP%2FWdwKZKihwjaIHdXUEHd1QVxuoaK%2BIkBTusShki6i4IM99oUyH%2B90NLXnej%2B9gdcbCEHA3DAp24YoNzZj9ZawCn9heM8Q3ywoLbT6%2B%2FbnOaNaGmcGbRT7jn6Fhq9ZtGc25icD%2B39EIT67p6u8ZKIt8wQiUA3OrVcOCQ0GNX5rDGscGzi%2FAZmf8RQCfLKPxeSoUjFyxn%2BAWf16YMpyPn9ngm04DtGbCiGoKPwu9OBIvf8Q2UVF9YzjhS4e8vbqA7A2t4ysLCzYL%2Bh6qIuvgECthOGm9iN4u6063GILqGI2u0%2B3LAM1rQWBBO%2FxS%2BAZfGWliERPmzpAlL4rvVDq1rtbMx%2Bs%2BK68W%2FAH26tGoTmJQInbeFHIea2D7JyrtUTM20wNdmni%2F4o9o61A2hZ%2Fuf5wTDixCqGmzr8LW8P22cIJbM8e4iBOkPbI18ussB4hzIJAK5vYvOKTfzx%2BqFqq91tid0y4ABM5l147eAfWnepGprT%2FTzXGvKnziCAsGRtGrFGgjMKKg3Ke2NMZ0HMI8asW9LnHZ92F6vaNYmEWOhKvD07KYIB35EP3zGwt0D31Sp7qtV61WWLIG5VNZ439GVPlhtHEwsD6f0M9nla0YL3UJ0uoRPFOwPwFQpZ2v1Oaei5U3HUosequr3whRkfsFbUZure%2BJgXSlN2C6eE7JMNp1TGLZ3t9CA3thwEkFhKR7Vo7jWD5oEqf3A%2BxmUDjHSmFW7fEMUmu%2FeMqc9j7Lm4wo2Mc3SWPZrZ9xJcUsyLFRSMd1I1VpMdWe8kT%2BK0Iy5ZKSY3kk7a%2BrTyaMZ%2Bxi7TvxVBpQHGmoJP6H%2BKTLbRQ%3D--opMC3njT6DTsYoLy--A88lyGIKbPKb0EB9Kg7Jrw%3D%3D'}
+
+response = requests.get(url, headers=header)
+
+2 cookies字典
+temp = '_octo=GH1.1.58961273.1563203114; _ga=GA1.2.934439658.1563203134; tz=Asia%2FShanghai; _device_id=6c66a20f2a3dc84b8815ac745d9ed651; tz=Asia%2FShanghai; user_session=9cEd78xD4FcFDmBOTF1Hyf6eaJhGFl2wa-w4CM324ZG61GtY; __Host-user_session_same_site=9cEd78xD4FcFDmBOTF1Hyf6eaJhGFl2wa-w4CM324ZG61GtY; logged_in=yes; dotcom_user=zhangyiwen5512; has_recent_activity=1; _gat=1; _gh_sess=Dp3bAPtvzh9hkwNr386Y6SHX9wFLQq5vlhaS8ffaxhoTPwMjJu5kNOMKrl%2BAovLuoyMimBVmAVGM0OeEiajNnp2CbyWO6GRe7FOjpo1cWvxQGP%2FWdwKZKihwjaIHdXUEHd1QVxuoaK%2BIkBTusShki6i4IM99oUyH%2B90NLXnej%2B9gdcbCEHA3DAp24YoNzZj9ZawCn9heM8Q3ywoLbT6%2B%2FbnOaNaGmcGbRT7jn6Fhq9ZtGc25icD%2B39EIT67p6u8ZKIt8wQiUA3OrVcOCQ0GNX5rDGscGzi%2FAZmf8RQCfLKPxeSoUjFyxn%2BAWf16YMpyPn9ngm04DtGbCiGoKPwu9OBIvf8Q2UVF9YzjhS4e8vbqA7A2t4ysLCzYL%2Bh6qIuvgECthOGm9iN4u6063GILqGI2u0%2B3LAM1rQWBBO%2FxS%2BAZfGWliERPmzpAlL4rvVDq1rtbMx%2Bs%2BK68W%2FAH26tGoTmJQInbeFHIea2D7JyrtUTM20wNdmni%2F4o9o61A2hZ%2Fuf5wTDixCqGmzr8LW8P22cIJbM8e4iBOkPbI18ussB4hzIJAK5vYvOKTfzx%2BqFqq91tid0y4ABM5l147eAfWnepGprT%2FTzXGvKnziCAsGRtGrFGgjMKKg3Ke2NMZ0HMI8asW9LnHZ92F6vaNYmEWOhKvD07KYIB35EP3zGwt0D31Sp7qtV61WWLIG5VNZ439GVPlhtHEwsD6f0M9nla0YL3UJ0uoRPFOwPwFQpZ2v1Oaei5U3HUosequr3whRkfsFbUZure%2BJgXSlN2C6eE7JMNp1TGLZ3t9CA3thwEkFhKR7Vo7jWD5oEqf3A%2BxmUDjHSmFW7fEMUmu%2FeMqc9j7Lm4wo2Mc3SWPZrZ9xJcUsyLFRSMd1I1VpMdWe8kT%2BK0Iy5ZKSY3kk7a%2BrTyaMZ%2Bxi7TvxVBpQHGmoJP6H%2BKTLbRQ%3D--opMC3njT6DTsYoLy--A88lyGIKbPKb0EB9Kg7Jrw%3D%3D'
+
+cookie_list = temp.split(";")
+cookies = {data.split('=')[0]: data.split('=')[-1] for data in cookie_list}
+
+response = requests.get(url, headers=header, cookies=cookies)
+
+3 cookieJar转化
+from requests import utils
+
+header = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+              }
+url = "https://github.com/zhangyiwen5512"
+response = requests.get(url, headers=header)
+
+cookies = requests.utils.dict_from_cookiejar(response.cookies)
+print(cookies)
+jar_cookies = requests.utils.add_dict_to_cookiejar(response.cookies, cookies)
+print(jar_cookies)
+
+
+超时设置
+response = requests.get(url, headers=header, timeout=3)
+
+
+代理转发
+1 透明代理
+REMOTE_ADDR = PROXY IP
+HTTP_VIA = PROXY IP
+HTTP_FORWARDED_FOR = YOUR IP
+
+2 匿名代理
+REMOTE_ADDR = PROXY IP
+HTTP_VIA = PROXY IP
+HTTP_FORWARDED_FOR = PROXY IP
+
+3 高匿名代理
+REMOTE_ADDR = PROXY IP
+HTTP_VIA = TBD
+HTTP_FORWARDED_FOR = TBD
+
+header = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',}
+url = "https://github.com/zhangyiwen5512"
+proxy = {'http://106.14.5.129:80",
+        'https': "https://8.8.8.8:888",
+         }
+response = requests.get(url, headers=header, proxies=proxy)
+
+
+verify参数忽略CA证书
+response = requests.get(url, headers=header, verify=False)
+
+
+post请求
+data = {
+    "输入值": "",
+    "固定值": "",
+    "静态预设值": "",
+    "请求得到预设值": "",
+    "客户端生成": "",
+}
+response = requests.post(url, data=data, headers=header)
+
+
+session代替cookies
+sess = requests.Session()
+
+sess.headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',}
+1 登陆
+url = "https://github.com/login"
+response = sess.get(url)
+
+response = BeautifulSoup(response.content, features="html.parser")
+token = response.find(attrs={'name': 'authenticity_token'})
+ts = response.find(attrs={'name': 'timestamp'})
+tsc = response.find(attrs={'name': 'timestamp_secret'})
+
+
+data = {
+    "commit": "Sign in",
+    "authenticity_token": token['value'],
+    "login": "zhangyiwen5512",
+    "password": "19921019551rR",
+    "webauthn-support": "supported",
+    "webauthn-iuvpaa-support": "unsupported",
+    "timestamp": ts['value'],
+    "timestamp_secret": tsc['value'],
+    "ga_id": "",
+    "return_to": "",
+    "allow_signup": "",
+    "client_id": "",
+    "integration": "",
+    "required_field_b9b4": "",
+}
+2 输入用户名和密码
+url = "https://github.com/session"
+response = sess.post(url, data=data)
+
+response = BeautifulSoup(response.content, features="html.parser")
+up = response.find(attrs={'action': '/sessions/verified-device'})
+token = up.find(attrs={'name': 'authenticity_token'})
+code = input("code:")
+data = {
+    "authenticity_token": token['value'],
+    "opt": code
+}
+3 验证码
+url = "https://github.com/sessions/verified-device"
+sess.post(url, data=data)
+
+4 登陆
+url = "https://github.com/zhangyiwen5512"
+response = sess.get(url)
+print(response.content.decode('utf-8'))
+response = BeautifulSoup(response.content, features="html.parser")
+print(response.text)
+
+
+jsonpath模块
+respone = requests.get("")
+ret = jsonpath(respone, "语法")
+"$"		根结点
+"."		子结点
+".."		内部任意结点
+
+response = requests.get("url")
+dic = json.loads(response)
+ret = jsonpath(dic, "$.key1.key2")
+ret = jsonpath(dic, "$..key2")
+
+lxml模块
+/html/head/title/text[]
+/		绝对路径
+//		相对路径
+.		当前结点
+..		上层结点
+@attr		提取属性
+text()		提取文本内容
+*		通配标签
+@*		通配属性
+node()		通配结点
+|		或
+and		与
+or		或
+
+
+path = "/html/head/title/@attr"
+path = "/html/./title/text()"
+
+path = "//div[3]/div[1]/"
+path = "//div[3]/div[last()]/"
+path = "//div[3]/div[position()>=5]/"
+
+path = "//div[3]/div[@id='123']/"
+path = "//div[3]/div[span>200]/"
+path = "//div[3]/div[div[2]>200]/"
+
+
+path = ".//div[contains(@id, '123) or contains(@name, '4425')]"
+path = "./div[contains(@id, '123) and contains(text(), '4425')]"
+
+response = requests.get("url")
+ele = etree.HTML(response.content)
+path = "//div[3]/div[div[2]>200]/"
+src = ele.xpath(path)
+src.xpath("")
+
+
+
+seleunim框架
+desired_capabilities = DesiredCapabilities.CHROME
+desired_capabilities['pageLoadStrategy'] = 'normal'
+desired_capabilities['autoAcceptAlerts'] = True
+PROXY = "proxy_host:proxy:port"
+desired_capabilities['proxy'] = {
+    "httpProxy": PROXY,
+    "ftpProxy": PROXY,
+    "sslProxy": PROXY,
+    "noProxy": None,
+    "proxyType": "MANUAL",
+    "class": "org.openqa.selenium.Proxy",
+    "autodetect": False
+}
+
+chrome_options = Options()
+chrome_options.add_argument('--no--sandbox')
+chrome_options.add_argument('--headless')
+chrome_options.add_argument('--disable-gpu')
+chrome_options.add_argument('log-level=3')
+chrome_options.add_argument('lang=h_CN.UTF-8')
+chrome_options.add_argument('blink-settings=imagesEnabled=false')
+chrome_options.add_argument('--disable-web-security')
+chrome_options.add_argument('–ignore-certificate-errors')
+chrome_options.add_argument('--proy-server=http://8.8.8.8:90')
+
+User_Agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36'
+chrome_options.add_argument('User-Agent={}'.format(User_Agent))
+
+
+driver = webdriver.Chrome(executable_path='./chromedriver', desired_capabilities=desired_capabilities, options=chrome_options)
+kw = driver.find_element_by_xpath('//*[@id="kw"]')
+# driver.find_element_by_css_selector('#kw')
+kw.send_keys('douyu')
+driver.find_element_by_id('su').click()
+
+切换窗口和iframe
+handler = driver.window_handles
+driver.switch_to.window(handler[-1])
+
+frame = driver.find_element_by_xpath('')
+driver.switch_to.frame(frame)
+
+cookies和js
+cookies = {cookie['name']: cookie['value'] for cookie in driver.get_cookies()}
+
+script = '''
+'''
+driver.execute_script(script)
+  
+
+
+等待
+time.sleep(1)
+driver.implicitly_wait(1)
+WebDriverWait(driver, 20, 0.5).until_not(EC.presence_of_all_elements_located((By.XPATH, '//*[@id="kw"]')))
+
+
+
+反爬虫手段
+1用户身份反爬虫：识别headers和请求参数，验证码
+2行为反爬虫：使用间隔，特殊链接，假数据
+3数据加密反爬：数据特殊化处理，图片代替数据，js生成数据
+
+验证码处理
+1 ocr识别库
+2 打码平台
+
+登陆接口
+1 action对应url
+2 
+
+
+定位js
+1 根据initiator定位触发文件
+2 搜索关键字
+3 通过绑定的event linteners
+
+
+
+scrapy startproject name
+cd name
+scrapy genspider name1 name1.com
+修改start_urls和allow_doamins
+编写解析方法
+pipelines中数据处理和保存
+settings中启用
+
+
+scrapy.Request(url=, callback=, meta=, dont_filter=, method=, headers=, cookies=, body=)
+meta不同页面解析中传递数据
+body POST方法数据
+
+open_spider()# 开启爬虫时执行，只执行一次
+close_spider()关闭爬虫时执行，只执行一次
+
+
+scrapy genspider -t crawl name2 name2.com
+Rule(LinkExtractor(allow=r'Items/'), callback='parse_item', follow=True)根据正则提取链接
+
+scrapy中间件
+1 爬虫中间件
+
+2 下载中间件
+process_request(self, request, spider)				处理请求
+返回None 	request对象交给下载器处理
+返回request	requestd对象交给调度器，给其他中间件	
+返回response	不经过下载器，response交给spider解析
+process_response(self, request, response, spider):		处理响应
+返回request	requestd对象交给调度器，给其他中间件
+返回response	不经过下载器，response交给spider解析
+
+随机user-agent和随机ip代理
+ def process_request(self, request, spider):
+        ua = random.choice(agent_list)
+        request.headers['User-Agent'] = ua
+	
+        pro = random.choice(proxy)
+        if "user_passwwd" in pro:
+            b64 = base64.b64encode(pro['user_passwwd'].encode())
+            request.headers['Proxy-Authorization'] = 'Basic ' + b64.decode()
+        else:
+            pass
+        request.meta['proxy'] = pro['ip_port']
+
+
+scrapy + selenium
+
+scrapy runspider xxx.py
+DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"		设置重复过滤，和scrapy-splesh使用时重写去重
+SCHEDULER = "scrapy_redis.scheduler.Scheduler"				设置调度器
+SCHEDULER_PERSIST = True						结束时保持去重集合和任务队列
+ITEM_PIPELINES = {'scrapy_redis.pipelines.RedisPipeline': 400,	}	数据保存到redis中
+REDIS_URL = "redis://172.16.123.2:6379"					设置数据库
+DOWNLOAD_DELAY = 1
+
+
+分布式爬虫 去重集合和任务队列的贡献
+1 普通爬虫
+2 导入spider-redis或crawler-redis类，并继承
+3 取消start_urls和allowed_domains
+4 设置redis-key获取start_urls和allowed_domains
+5 配置文件参数
+
+
+scrapy-splash
+sudo service docker start
+sudo docker pull scrapinghub/splash
+
+开启
+sudo docker run -p 8050:8050 scrapinghub/splash
+sudo docker run -d -p 8050:8050 scrapinghub/splash
+127.0.0.1:8050 查看实例
+
+关闭
+sudo docker ps -a
+sudo docker stop id
+sudo docker rm id
+
+python启用splash
+# 渲染服务的url
+SPLASH_URL = 'http://192.168.99.100:8050'
+
+#下载器中间件
+DOWNLOADER_MIDDLEWARES = {
+    'scrapy_splash.SplashCookiesMiddleware': 723,
+    'scrapy_splash.SplashMiddleware': 725,
+    'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
+}
+# 去重过滤器，和scrapy-redis使用时重写去重
+DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
+# 使用Splash的Http缓存
+HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
+
+
+from scrapy_splash import SplashRequest
+def start_requests(self):
+    yield SplashRequest(url=self.start_urls[0], callback=self.parse, args={'wait': 10}, endpoint='render.html')
+
+
+ROBOTSTXT_OBEY = False					是否遵守爬虫协议
+USER_AGENT						头
+DEFAULT_REQUEST_HEADERS					默认请求头
+ITEM_PIPELINES						中间件
+SPIDER_MIDDLEWARES					中间件
+DOWNLOADER_MIDDLEWARES					中间件
+COOKIES_ENABLED						cookies传递，自动添加	
+COOKIES_DEBUG						查看cookies
+LOG_LEVEL						日志输出等级
+LOG_FILE						日志输出文件
+CONCURRENT_REQUESTS					限制并发
+CONCURRENT_REQUESTS_PER_DOMAIN				限制并发
+CONCURRENT_REQUESTS_PER_IP				限制并发
+DOWNLOAD_DELAY						请求延迟
+
+
+
+scrapyd和scrapyd-client部署爬虫 修改scrapy.cfg
+[deploy:部署名]
+url = http://localhost:6800/							目标服务器地址
+project = example								项目名
+
+scrapyd-deploy 部署名 -p 项目名							部署，一定要进入爬虫根目录，就是带有scrapy.cfg的那一层及目录
+curl http://localhost:6800/schedule.json -d project=项目名 -d spider=爬虫名	启动url
+curl http://localhost:6800/cancle.json -d project=项目名 -d job=jobid		终止url
+
+gerapy管理爬虫
+1 gerapy init && cd gerapy		生成文件夹
+2 gerapy migrate			生成数据库
+3 gerapy runserver			启动服务	http://localhost:8000/		
+输入scrapyd的IP和port进行部署管理
+项目放倒gerapy文件夹进行项目管理
+
+
+appium手机app信息
+
+
+
+
+
+
+

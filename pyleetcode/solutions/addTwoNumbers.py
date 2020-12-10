@@ -15,8 +15,8 @@ class ListNode:
  *
  *
  * 
- *
- * 
+ * 相同位上的在则相加，带上进位，依次进入下一位的计算
+ * 判断最后一个进位是否要取1，构造新listnode
  *
  *
 '''
@@ -24,4 +24,26 @@ class ListNode:
 
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-        pass
+        addone = 0
+        result = ListNode()
+        current = result
+        while (l1 or l2):
+            temp = 0
+            if l1:
+                temp += l1.val
+                l1 = l1.next
+
+            if l2:
+                temp += l2.val
+                l2 = l2.next
+
+            temp += addone
+            addone = int((temp) / 10)
+
+            current.next = ListNode(temp % 10)
+            current = current.next
+
+        if addone:
+            current.next = ListNode(1)
+
+        return result.next
