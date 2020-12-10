@@ -24,7 +24,10 @@
 class generateParenthesis {
 public:
     std::vector<std::string> Solution(int n) {
+        std::vector<std::string> ans;
 
+
+        return ans;
     }
 };
 
