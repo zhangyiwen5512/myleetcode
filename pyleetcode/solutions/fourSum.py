@@ -35,7 +35,6 @@ class Solution:
             if nums[i] + nums[n - 3] + nums[n - 2] + nums[n - 1] < target:
                 continue
 
-
             for j in reversed(range(i + 3, n)):
                 p = i + 1
                 q = j - 1
@@ -61,6 +60,5 @@ class Solution:
                         x = nums[q]
                         while q > p and nums[q] == x:
                             q -= 1
-
 
         return result

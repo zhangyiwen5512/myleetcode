@@ -1,4 +1,5 @@
 import os
+
 """
  * 给你一个字符串 s 和一个字符规律 p，请你来实现一个支持 '.' 和 '*' 的正则表达式匹配。
  * '.' 匹配任意单个字符
@@ -34,6 +35,8 @@ import os
  * 
  * 动态规划
 """
+
+
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         def macth(i, j):
@@ -58,13 +61,4 @@ class Solution:
                     if macth(m, n):
                         dp[m][n] |= dp[m - 1][n - 1]
 
-
         return dp[i][j]
-
-
-
-
-
-
-
-

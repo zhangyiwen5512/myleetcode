@@ -1,6 +1,4 @@
-
 from typing import List
-
 
 """
  * 罗马数字包含以下七种字符： I， V， X， L，C，D 和 M。
@@ -40,6 +38,7 @@ from typing import List
  * 从左到又依次匹配对应的字符，加上对应的值
  * 
 """
+
 
 class Solution:
     def romanToInt(self, s: str) -> int:

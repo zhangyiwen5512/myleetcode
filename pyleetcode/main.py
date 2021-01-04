@@ -20,6 +20,18 @@ from solutions import removeNthFromEnd
 from solutions import isValid
 from solutions import mergeTwoLists
 from solutions import generateParenthesis
+from solutions import mergeKLists
+from solutions import swapPairs
+from solutions import reverseKGroup
+from solutions import removeDuplicates
+from solutions import removeElement
+from solutions import strStr
+from solutions import divide
+from solutions import findSubstring
+from solutions import nextPermutation
+from solutions import longestValidParentheses
+from solutions import search
+from solutions import searchRange
 
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -134,5 +146,93 @@ class ListNode:
 #     l = l.next
 
 
-g = generateParenthesis.Solution()
-print(g.generateParenthesis(3))
+# g = generateParenthesis.Solution()
+# print(g.generateParenthesis(4))
+# "(((())))","((()()))","((())())","((()))()","(()(()))","(()()())","(()())()","(())(())","(())()()","()((()))","()(()())","()(())()","()()(())","()()()()"]
+
+# m = mergeKLists.Solution()
+# l1 = ListNode(5)
+# l2 = ListNode(4, l1)
+# l3 = ListNode(1, l2)
+#
+# r1 = ListNode(4)
+# r2 = ListNode(3, r1)
+# r3 = ListNode(1, r2)
+#
+# h1 = ListNode(6)
+# h2 = ListNode(2, h1)
+#
+# l = [l3, r3, h2]
+#
+# ans = m.mergeKLists([None, h1])
+# while ans:
+#     print(ans.val)
+#     ans = ans.next
+
+
+# s = swapPairs.Solution()
+# r1 = ListNode(4)
+# r2 = ListNode(3, r1)
+# r3 = ListNode(2, r2)
+# r4 = ListNode(1, r3)
+# r5 = ListNode(0, r4)
+# ans = s.swapPairs(r3)
+# # ans = r4
+# while ans:
+#     print(ans.val)
+#     ans = ans.next
+
+
+# r = reverseKGroup.Solution()
+# r0 = ListNode(6)
+# r1 = ListNode(5, r0)
+# r2 = ListNode(4, r1)
+# r3 = ListNode(3, r2)
+# r4 = ListNode(2, r3)
+# r5 = ListNode(1, r4)
+#
+# ans = r.reverseKGroup(r5, 6)
+# while ans:
+#     print(ans.val)
+#     ans = ans.next
+
+# r = removeDuplicates.Solution()
+# nums = [1,1,1]
+# ans = r.removeDuplicates(nums)
+# for i in range(ans):
+#     print(nums[i])
+
+# r = removeElement.Solution()
+# nums = [2]
+# ans = r.removeElement(nums, 2)
+# for i in range(ans):
+#     print(nums[i])
+
+# s = strStr.Solution()
+# print(s.strStr("", "aaa"))
+
+# -2147483648
+# -1
+# d = divide.Solution()
+# print(d.divide(-1, 1))
+
+#"barfoofoobarthefoobarman"
+#["bar","foo","the"]
+# "wordgoodgoodgoodbestword"
+# ["word","good","best","good"]
+# f = findSubstring.Solution()
+# print(f.findSubstring("wordgoodgoodgoodbestword", ["word","good","best","good"]))
+
+
+# n = nextPermutation.Solution()
+# print(n.nextPermutation([3,2,1]))
+
+
+# l = longestValidParentheses.Solution()
+# print(l.longestValidParentheses(")()())"))
+
+# s = search.Solution()
+# print(s.search([4,5,6,7,0,1,3], 2))
+
+s = searchRange.Solution()
+print(s.searchRange([5,7,7,8,8,10], 6))

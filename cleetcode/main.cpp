@@ -22,6 +22,18 @@
 #include "headers/isValid.h"
 #include "headers/mergeTwoLists.h"
 #include "headers/generateParenthesis.h"
+#include "headers/mergeKLists.h"
+#include "headers/swapPairs.h"
+#include "headers/reverseKGroup.h"
+#include "headers/removeDuplicates.h"
+#include "headers/removeElement.h"
+#include "headers/strStr.h"
+#include "headers/divide.h"
+#include "headers/findSubstring.h"
+#include "headers/nextPermutation.h"
+#include "headers/longestValidParentheses.h"
+#include "headers/search.h"
+#include "headers/searchRange.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -164,11 +176,127 @@ int main() {
 //        l = l->next;
 //    }
 
-    generateParenthesis g = generateParenthesis();
-    auto ans = g.Solution(9);
+//    generateParenthesis g = generateParenthesis();
+//    auto ans = g.Solution(3);
+//    for (int i = 0; i < ans.size(); ++i) {
+//        std::cout << ans[i] << "\n";
+//    }
+
+
+//    auto *l1 = new ListNode(5);
+//    auto *l2 = new ListNode(4, l1);
+//    auto *l3 = new ListNode(1, l2);
+//
+//    auto *r1 = new ListNode(4);
+//    auto *r2 = new ListNode(3, r1);
+//    auto *r3 = new ListNode(1, r2);
+//
+//    auto h1 = new ListNode(6);
+//    auto h2 = new ListNode(2, h1);
+//
+//    mergeKLists m = mergeKLists();
+//    std::vector<ListNode*> v({l3, r3, h2});
+//    auto ans = m.Solution(v);
+//
+//    while (ans){
+//        std::cout<< ans->val<< " ";
+//        ans = ans->next;
+//    }
+
+//    auto *l1 = new ListNode(4);
+//    auto *l2 = new ListNode(3, l1);
+//    auto *l3 = new ListNode(2, l2);
+//    auto *l4 = new ListNode(1, l3);
+//    auto *l5 = new ListNode(0, l4);
+//    swapPairs s = swapPairs();
+//    auto ans = s.Solution(l3);
+//        while (ans){
+//        std::cout<< ans->val<< " ";
+//        ans = ans->next;
+//    }
+
+//    auto *l0 = new ListNode(6);
+//    auto *l1 = new ListNode(5, l0);
+//    auto *l2 = new ListNode(4, l1);
+//    auto *l3 = new ListNode(3, l2);
+//    auto *l4 = new ListNode(2, l3);
+//    auto *l5 = new ListNode(1, l4);
+//    reverseKGroup r = reverseKGroup();
+//    auto ans = r.Solution(l5, 6);
+//        while (ans){
+//        std::cout<< ans->val<< " ";
+//        ans = ans->next;
+//    }
+
+
+//    removeDuplicates r = removeDuplicates();
+//    std::vector<int > nums = {1,1,1,2,2,2,2};
+//    int ans = r.Solution(nums);
+//    for (int i = 0; i < ans; ++i) {
+//        std::cout<< nums[i] << " ";
+//    }
+
+//    removeElement r = removeElement();
+//    std::vector<int > nums = {1,1,1,2,2,2,2};
+//    int ans = r.Solution(nums, 2);
+//    for (int i = 0; i < ans; ++i) {
+//        std::cout<< nums[i] << " ";
+//    }
+
+
+//    strStr s = strStr();
+//    std::cout<< s.Solution("", "aa");
+
+
+//    int dividend =9;
+//    int divisor=1;
+//    int sign = (dividend == abs(dividend)) - (divisor == abs(divisor));
+//
+//    divide d = divide();
+//
+//    std::cout<<d.Solution(2147483647,1);
+
+//    "wordgoodgoodgoodbestword"
+//    ["word","good","best","good"]
+
+//
+//    findSubstring f = findSubstring();
+//    std::string s = "abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab";
+//    std::vector<std::string> words = {"ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba","ab","ba"};
+////    std::string s = "wordgoodgoodgoodbestword";
+////    std::vector<std::string> words = {"word","good","best","good"};
+//    std::vector<int> ans = f.Solution(s, words);
+//    for (int i = 0; i < ans.size(); ++i) {
+//        std::cout<< ans[i] << " ";
+//    }
+
+
+//    nextPermutation n = nextPermutation();
+//    std::vector<int> nums = {3,2,1};
+//    n.Solution(nums);
+//    for (int i = 0; i < nums.size(); ++i) {
+//        std::cout<< nums[i] << " ";
+//    }
+
+//    longestValidParentheses l = longestValidParentheses();
+//    std::cout<< l.Solution("()(())");
+
+//    search s = search();
+//    std::vector<int > nums = {4,5,6,7,0,1,3};
+//    std::cout<< s.Solution(nums, 2);
+
+
+    searchRange s = searchRange();
+    std::vector<int > nums = {5,7,7,8,8,10};
+    std::vector<int > ans = s.Solution(nums, 6);
     for (int i = 0; i < ans.size(); ++i) {
-        std::cout << ans[i] << "\n";
+        std::cout<< ans[i] << " ";
     }
+
+
+
+
+
 
 //    std::cout<< INT32_MAX<< " "<< INT32_MIN;
 //    std::cout<< INT_MAX<< " "<< INT_MIN;

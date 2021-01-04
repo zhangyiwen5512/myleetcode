@@ -15,9 +15,10 @@ from typing import List
  *
 """
 
+
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
-        result = 2**31 - 1
+        result = 2 ** 31 - 1
         nums.sort()
         n = len(nums)
         for i in range(n):

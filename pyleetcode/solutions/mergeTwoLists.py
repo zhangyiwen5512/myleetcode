@@ -3,6 +3,7 @@ class ListNode:
         self.val = val
         self.next = next
 
+
 """
  * 将两个升序链表合并为一个新的 升序 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
  * 输入：1->2->4, 1->3->4
@@ -18,6 +19,7 @@ class ListNode:
  *
 """
 
+
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         if not l1:
@@ -25,14 +27,8 @@ class Solution:
         if not l2:
             return l1
 
-        if l1.val < l2.val:
-            head = l1
-            l = l1
-            l1 = l1.next
-        else:
-            head =l2
-            l = l2
-            l2 = l2.next
+        l = ListNode(0, None)
+        head = l
 
         while l1 and l2:
             while l1 and l1.val <= l2.val:
@@ -53,5 +49,4 @@ class Solution:
         if l2:
             l.next = l2
 
-
-        return head
+        return head.next

@@ -1,4 +1,3 @@
-
 from typing import List
 
 """
@@ -35,7 +34,7 @@ class Solution:
             if i > 0 and nums[i] == nums[i - 1]:
                 continue
 
-            for j in range(i + 1 ,n):
+            for j in range(i + 1, n):
                 if j > i + 1 and nums[j] == nums[j - 1]:
                     continue
 
@@ -47,7 +46,6 @@ class Solution:
 
                 if target == nums[j] + nums[k]:
                     result.append([nums[i], nums[j], nums[k]])
-
 
         return result
 
@@ -73,5 +71,3 @@ class Solution:
         #
         #
         # return result
-
-

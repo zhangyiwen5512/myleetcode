@@ -4,8 +4,11 @@
 CMakeFiles/cleetcode.dir/main.cpp.o
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/addTwoNumbers.h
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/convert.h
+ /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/divide.h
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/findMedianSortedArrays.h
+ /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/findSubstring.h
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/fourSum.h
+ /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/generateParenthesis.h
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/intToRoman.h
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/isMatch.h
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/isPalindrome.h
@@ -14,12 +17,21 @@ CMakeFiles/cleetcode.dir/main.cpp.o
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/letterCombinations.h
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/longestCommonPrefix.h
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/longestPalindrome.h
+ /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/longestValidParentheses.h
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/maxArea.h
+ /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/mergeKLists.h
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/mergeTwoLists.h
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/myAtoi.h
+ /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/nextPermutation.h
+ /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/removeDuplicates.h
+ /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/removeElement.h
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/removeNthFromEnd.h
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/reverse.h
+ /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/reverseKGroup.h
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/romanToInt.h
+ /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/search.h
+ /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/strStr.h
+ /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/swapPairs.h
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/threeSum.h
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/threeSumClosest.h
  /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/twoSum.h

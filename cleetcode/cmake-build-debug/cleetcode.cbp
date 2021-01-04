@@ -90,7 +90,13 @@
 		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/convert.h">
 			<Option target="cleetcode"/>
 		</Unit>
+		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/divide.h">
+			<Option target="cleetcode"/>
+		</Unit>
 		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/findMedianSortedArrays.h">
+			<Option target="cleetcode"/>
+		</Unit>
+		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/findSubstring.h">
 			<Option target="cleetcode"/>
 		</Unit>
 		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/fourSum.h">
@@ -123,7 +129,13 @@
 		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/longestPalindrome.h">
 			<Option target="cleetcode"/>
 		</Unit>
+		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/longestValidParentheses.h">
+			<Option target="cleetcode"/>
+		</Unit>
 		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/maxArea.h">
+			<Option target="cleetcode"/>
+		</Unit>
+		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/mergeKLists.h">
 			<Option target="cleetcode"/>
 		</Unit>
 		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/mergeTwoLists.h">
@@ -132,13 +144,37 @@
 		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/myAtoi.h">
 			<Option target="cleetcode"/>
 		</Unit>
+		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/nextPermutation.h">
+			<Option target="cleetcode"/>
+		</Unit>
+		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/removeDuplicates.h">
+			<Option target="cleetcode"/>
+		</Unit>
+		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/removeElement.h">
+			<Option target="cleetcode"/>
+		</Unit>
 		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/removeNthFromEnd.h">
 			<Option target="cleetcode"/>
 		</Unit>
 		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/reverse.h">
 			<Option target="cleetcode"/>
 		</Unit>
+		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/reverseKGroup.h">
+			<Option target="cleetcode"/>
+		</Unit>
 		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/romanToInt.h">
+			<Option target="cleetcode"/>
+		</Unit>
+		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/search.h">
+			<Option target="cleetcode"/>
+		</Unit>
+		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/searchRange.h">
+			<Option target="cleetcode"/>
+		</Unit>
+		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/strStr.h">
+			<Option target="cleetcode"/>
+		</Unit>
+		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/swapPairs.h">
 			<Option target="cleetcode"/>
 		</Unit>
 		<Unit filename="/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/threeSum.h">

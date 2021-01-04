@@ -1,4 +1,4 @@
-
+from typing import List
 
 """
  * 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
@@ -17,7 +17,6 @@
  *
 """
 
-
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         start = 0
@@ -34,7 +33,6 @@ class Solution:
 
         return s[start:end + 1]
 
-
     def findone(self, start, end, s):
         while start >= 0 and end < len(s):
             # right & left
@@ -45,4 +43,3 @@ class Solution:
                 break
 
         return start + 1, end - 1
-

@@ -12,6 +12,8 @@
 string
 -
 
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/divide.h
+
 /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/findMedianSortedArrays.h
 vector
 -
@@ -20,7 +22,25 @@ algorithm
 limits.h
 -
 
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/findSubstring.h
+vector
+-
+string
+-
+set
+-
+algorithm
+-
+unordered_map
+-
+
 /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/fourSum.h
+vector
+-
+
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/generateParenthesis.h
+string
+-
 vector
 -
 
@@ -70,8 +90,20 @@ string
 vector
 -
 
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/longestValidParentheses.h
+string
+-
+vector
+-
+
 /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/maxArea.h
 vector
+-
+
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/mergeKLists.h
+vector
+-
+queue
 -
 
 /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/mergeTwoLists.h
@@ -80,13 +112,39 @@ vector
 string
 -
 
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/nextPermutation.h
+vector
+-
+
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/removeDuplicates.h
+
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/removeElement.h
+vector
+-
+
 /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/removeNthFromEnd.h
 
 /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/reverse.h
 
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/reverseKGroup.h
+addTwoNumbers.h
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/addTwoNumbers.h
+
 /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/romanToInt.h
 string
 -
+
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/search.h
+vector
+-
+
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/strStr.h
+string
+-
+
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/swapPairs.h
+addTwoNumbers.h
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/addTwoNumbers.h
 
 /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/threeSum.h
 vector
@@ -153,4 +211,28 @@ headers/isValid.h
 /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/isValid.h
 headers/mergeTwoLists.h
 /home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/mergeTwoLists.h
+headers/generateParenthesis.h
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/generateParenthesis.h
+headers/mergeKLists.h
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/mergeKLists.h
+headers/swapPairs.h
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/swapPairs.h
+headers/reverseKGroup.h
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/reverseKGroup.h
+headers/removeDuplicates.h
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/removeDuplicates.h
+headers/removeElement.h
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/removeElement.h
+headers/strStr.h
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/strStr.h
+headers/divide.h
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/divide.h
+headers/findSubstring.h
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/findSubstring.h
+headers/nextPermutation.h
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/nextPermutation.h
+headers/longestValidParentheses.h
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/longestValidParentheses.h
+headers/search.h
+/home/zhangyiwen/Desktop/myleetcode/cleetcode/headers/search.h
 

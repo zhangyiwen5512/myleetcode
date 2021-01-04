@@ -34,10 +34,8 @@ class Solution:
             x = x // 10
             if x == 0:
                 break
-            if (2**31 - 1) / 10  < result or -2**31 / 10 > result:
+            if (2 ** 31 - 1) / 10 < result or -2 ** 31 / 10 > result:
                 return 0
             result = result * 10
 
         return result * sign
-
-

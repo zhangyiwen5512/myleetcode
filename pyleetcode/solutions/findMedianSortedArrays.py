@@ -63,4 +63,3 @@ class Solution:
         right = (len(nums2) + len(nums1) + 2) // 2
 
         return (findKthElement(nums1, nums2, left) + findKthElement(nums1, nums2, right)) / 2
-

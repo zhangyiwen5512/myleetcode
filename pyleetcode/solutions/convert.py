@@ -28,6 +28,7 @@ import os
  * start为index所在列的起始序号，p为定位偏移
 """
 
+
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if len(s) == 1:
@@ -44,11 +45,9 @@ class Solution:
                 result += s[index]
                 p = mode - index % mode
                 start = index // mode * mode
-                if (p != mode // 2) and p != mode and start + p <len(s):
+                if (p != mode // 2) and p != mode and start + p < len(s):
                     result += s[start + p]
 
                 index += mode
-
-
 
         return result

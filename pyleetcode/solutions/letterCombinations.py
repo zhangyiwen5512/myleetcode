@@ -12,8 +12,8 @@ from typing import List
  *
  *
  *
- *
- *
+ * 只要digits还有字符，表示没完字符串进入下一次操作，否则将ans加入列表
+ * 取digits首数字对应的字母分别加到ans上，进入下一次操作
  *
  *
  *
@@ -22,6 +22,7 @@ from typing import List
  *
  *
 """
+
 
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
@@ -38,6 +39,7 @@ class Solution:
 
         ans = []
         n = len(digits)
+
         def combination(index, c):
             if index == n:
                 ans.append(c)
@@ -50,6 +52,3 @@ class Solution:
             combination(0, "")
 
         return ans
-
-
-

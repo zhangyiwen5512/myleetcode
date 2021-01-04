@@ -1,4 +1,3 @@
-
 import os
 
 """
@@ -40,8 +39,9 @@ import os
  *
  *
 """
-INT_MAX = 2**31 - 1
-INT_MIN = -2**31
+INT_MAX = 2 ** 31 - 1
+INT_MIN = -2 ** 31
+
 
 class Solution:
     def myAtoi(self, s: str) -> int:

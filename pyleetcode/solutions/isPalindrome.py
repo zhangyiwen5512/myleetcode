@@ -1,6 +1,3 @@
-
-
-
 import os
 
 """
@@ -23,6 +20,7 @@ import os
 """
 INT_MAX = 2 ** 31 - 1
 
+
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0:
@@ -36,4 +34,3 @@ class Solution:
             x1 = x1 // 10
 
         return temp == x
-
