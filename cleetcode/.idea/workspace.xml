@@ -11,58 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d710d958-fcf6-47a2-ab55-d45707deec6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/headers/divide.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/findSubstring.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/longestValidParentheses.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/mergeKLists.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/nextPermutation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/removeDuplicates.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/removeElement.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/reverseKGroup.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/search.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/strStr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headers/swapPairs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pyleetcode/solutions/divide.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pyleetcode/solutions/longestValidParentheses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pyleetcode/solutions/removeElement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pyleetcode/solutions/search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pyleetcode/solutions/searchRange.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pyleetcode/solutions/strStr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cleetcode.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cleetcode" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cleetcode" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cleetcode.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cleetcode.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/addTwoNumbers.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/addTwoNumbers.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/generateParenthesis.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/generateParenthesis.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/letterCombinations.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/letterCombinations.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/convert.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/convert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/findMedianSortedArrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/findMedianSortedArrays.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/fourSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/fourSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/generateParenthesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/generateParenthesis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/intToRoman.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/intToRoman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/isMatch.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/isMatch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/isPalindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/isPalindrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/isValid.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/isValid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/lengthOfLongestSubstring.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/lengthOfLongestSubstring.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/letterCombinations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/letterCombinations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/longestCommonPrefix.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/longestCommonPrefix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/longestPalindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/longestPalindrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/maxArea.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/maxArea.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/mergeTwoLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/mergeTwoLists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/myAtoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/myAtoi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/removeNthFromEnd.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/removeNthFromEnd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/reverse.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/reverse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/romanToInt.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/romanToInt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/threeSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/threeSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyleetcode/solutions/threeSumClosest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyleetcode/solutions/threeSumClosest.py" afterDir="false" />
-    </list>
+    <list default="true" id="d710d958-fcf6-47a2-ab55-d45707deec6d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +73,7 @@
       <workItem from="1609068848717" duration="2724000" />
       <workItem from="1609242187893" duration="3068000" />
       <workItem from="1609323894810" duration="1691000" />
-      <workItem from="1609755920773" duration="881000" />
+      <workItem from="1609755920773" duration="1159000" />
     </task>
     <servers />
   </component>
